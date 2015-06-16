@@ -15,15 +15,16 @@
 <script type="text/javascript" src="src/button.js"></script>
 </head>
 <body>
-<div>
+<div class="container" style="max-width:500px">
+<div class="well">
 <input class="form-control input-lg" type="text" placeholder="Enter a value in either pounds or pennies" id="input" /><br>
-<button class="btn input-lg center-block" id="converter" onclick="convert">Get minimum number of coins required</button>
-</div>
+<button class="btn input-lg center-block" id="converter" onclick="convert()">Get minimum number of coins required</button>
 <ul class="list-group" id="output">
 <li class="list-group-item text-success lead">£2 coins <span class="text-right pull-right">3</span></li>
 <li class="list-group-item text-warning lead">50p coins <span class="pull-right">--</span></li>
 <li class="list-group-item text-danger lead">invalid input</li>
 </ul>
-<!--<script type="textlist-group-item/javascript" src="test.js"></script>  onclick="convert"-->
+</div>
+</div>
 </body>
 </html>
