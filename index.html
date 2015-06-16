@@ -1,25 +1,25 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-   <title>Minimum number of coins</title>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-   <script type="text/javascript" src="src/MoneyChanger.js"></script>
-   <script type="text/javascript" src="src/button.js"></script>
+    <title>Minimum number of coins</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="src/MoneyChanger.js"></script>
+    <script type="text/javascript" src="src/events.js"></script>
   </head>
   <body>
     <div class="container" style="max-width:500px"><a class="badge pull-right" href="SpecRunner.html" target="_blank">Tests</a>
      <div class="well">
        <br>
-       <input class="form-control input-lg" type="text" placeholder="Enter a value in either pounds or pennies" id="input" /><br>
-       <button class="btn-info btn-lg center-block" id="converter" onclick="convert()">Get minimum number of coins required</button><br>
+       <input class="form-control input-lg" type="text" placeholder="Enter a value in either pounds or pennies" autofocus id="input"><br>
+       <button class="btn-info btn-lg center-block" id="button">Get minimum number of coins required</button><br>
        <ul class="list-group" id="output">
        </ul>
      </div>
-   </div>
+    </div>
   </body>
 </html>
